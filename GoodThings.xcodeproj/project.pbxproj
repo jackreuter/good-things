@@ -13,6 +13,8 @@
 		A65879231A4A81A100C22F5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65879221A4A81A100C22F5F /* Images.xcassets */; };
 		A65879261A4A81A100C22F5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A65879241A4A81A100C22F5F /* LaunchScreen.xib */; };
 		A65879321A4A81A100C22F5F /* GoodThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65879311A4A81A100C22F5F /* GoodThingsTests.swift */; };
+		A658793C1A4B6BB200C22F5F /* DaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658793B1A4B6BB200C22F5F /* DaysTableViewController.swift */; };
+		A658793E1A4B6BDB00C22F5F /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658793D1A4B6BDB00C22F5F /* DayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A658792B1A4A81A100C22F5F /* GoodThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65879301A4A81A100C22F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A65879311A4A81A100C22F5F /* GoodThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodThingsTests.swift; sourceTree = "<group>"; };
+		A658793B1A4B6BB200C22F5F /* DaysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysTableViewController.swift; sourceTree = "<group>"; };
+		A658793D1A4B6BDB00C22F5F /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		A658790D1A4A81A100C22F5F = {
 			isa = PBXGroup;
 			children = (
+				A658793D1A4B6BDB00C22F5F /* DayViewController.swift */,
+				A658793B1A4B6BB200C22F5F /* DaysTableViewController.swift */,
 				A65879181A4A81A100C22F5F /* GoodThings */,
 				A658792E1A4A81A100C22F5F /* GoodThingsTests */,
 				A65879171A4A81A100C22F5F /* Products */,
@@ -214,6 +220,8 @@
 			files = (
 				A658791E1A4A81A100C22F5F /* ViewController.swift in Sources */,
 				A658791C1A4A81A100C22F5F /* AppDelegate.swift in Sources */,
+				A658793C1A4B6BB200C22F5F /* DaysTableViewController.swift in Sources */,
+				A658793E1A4B6BDB00C22F5F /* DayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				A65879371A4A81A100C22F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A65879381A4A81A100C22F5F /* Build configuration list for PBXNativeTarget "GoodThingsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				A658793A1A4A81A100C22F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
